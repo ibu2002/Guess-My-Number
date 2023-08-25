@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  /* background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%) no-repeat fixed; */
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) fixed;
+  background-position: cover;
+}
+header {
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  border-bottom: 7px solid black;
+  height: 35vh !important;
+  display: block;
+}
+.again {
+  padding: 10px;
+  border: none;
+  background-color: #a9a9a9;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.again:hover {
+  background-color: #808080;
+  color: #fff;
+}
+.again:active {
+  background-color: #b5b5b5;
+  color: #232b2b;
+}
+.between {
+  /* font-size: 1rem; */
+  font-size: 14px;
+  float: right;
+  margin-right: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px !important;
+  padding: 10px 0;
+  margin-top: 20px !important;
+}
+.number {
+  /* position: relative; */
+  position: absolute;
+  padding-top: 40px;
+  /* padding: 20px; */
+  height: 100px !important;
+  width: 150px !important;
+  font-size: 60px !important;
+  background-color: #d3d3d3;
+  /* z-index: 10; */
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 45%;
+  /* top: 100px; */
+}
+main {
+  display: flex;
+  margin-top: 150px !important;
+  height: 100%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.guess {
+  width: 200px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  /* justify-content: space-around; */
+  /* align-content: space-around; */
+  margin-bottom: 1.5rem;
+  background-color: #eaf0e7;
+}
+.check {
+  width: 150px;
+  /* height: 60px; */
+  border: none;
+  background-color: #a9a9a9;
+  font-size: 1.3rem;
+  border-radius: 7px;
+  padding: 10px;
+}
+.check:hover {
+  background-color: #808080;
+  color: #fff;
+}
+.check:active {
+  background-color: #b5b5b5;
+  color: #232b2b;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-around;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding-left: 100px;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+}
+.message {
+  margin-bottom: 80px !important;
+}
